@@ -19,6 +19,6 @@
  * 5.db.movies.find({"rating.average":{$lt:5}}).count()
  * 6.db.movies.find({$or:[{"rating.average":{$lt:5}},{"rating.average":{$gt:9}}]}).pretty()
  * 7.db.movies.find({$nor:[{"rating.average":{$lt:5}},{"rating.average":{$gt:9}}]}).pretty()
- * 
+ * 6.db.movies.find({$and:[{"rating.average":{$gt:9}},{genres:"Drama"}]}).pretty()
  * 
  * */ 
