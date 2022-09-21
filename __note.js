@@ -62,6 +62,8 @@
 More on Cursors: https://docs.mongodb.com/manual/tutorial/iterate-a-cursor/
 
 Query Operator Reference: https://docs.mongodb.com/manual/reference/operator/query/
+
+https://www.mongodb.com/docs/manual/reference/operator/aggregation/project/
  
  
  /
